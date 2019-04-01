@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="pedidosvendedor.Views.ClientesPage">
+    <ContentPage.Content>
+      <StackLayout>
+      <SearchBar x:Name="ClientsCodeSearchBar" 
+                 Placeholder="Código"
+                 TextChanged="Handle_SearchCodeButtonPressed"
+                 BackgroundColor="#F2F2F2"/>
+
+            <ListView x:Name="ClientsCodeSearchList" ItemSelected="OnItemSelected"
+                 BackgroundColor="#D6F5FE"
+                 Footer=""/>
+
+            <SearchBar x:Name="ClientsNameSearchBar"  
+                 Placeholder="Nombre"
+                 TextChanged="Handle_SearchNameButtonPressed"
+                 BackgroundColor="#F2F2F2"/> 
+        
+       <ListView x:Name="ClientsNameSearchList" ItemSelected="OnItemSelected"
+                 BackgroundColor="#D6F5FE"
+                 Footer=""/>
+    </StackLayout>
+
+
+      <!--  <ListView  x:Name="Clublistview" HasUnevenRows="true" ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="50">
+                            <StackLayout BackgroundColor="White"
+                            Orientation="Vertical">
+               
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+    </ContentPage.Content>
+</ContentPage>

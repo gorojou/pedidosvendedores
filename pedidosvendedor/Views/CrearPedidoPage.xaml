@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="pedidosvendedor.Views.CrearPedidoPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem1" Order="Primary" Icon="save.png" Text="guardar" Priority="0" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+          <StackLayout Margin="10">
+            <Label Text="FechaPedido :" Style="{StaticResource LabelStyle}" />
+            <Entry HorizontalTextAlignment="Start" Text="{Binding TokenName, Mode=TwoWay}" Placeholder="Fecha Pedido" />
+            <Label Text="Codigo Cliente :" Style="{StaticResource LabelStyle}" />
+            <Entry Text="{Binding TokenAddress, Mode=TwoWay}" Placeholder="Codigo Cliente" />
+            <Label Text="Sigla Nacion :" Style="{StaticResource LabelStyle}"/>
+            <Entry  Text="{Binding Symbol, Mode=TwoWay}" Placeholder="Sigla Nacion" />
+            <Label Text="Razon Social :" Style="{StaticResource LabelStyle}" />
+            <Entry Text="{Binding DecimalPlaces, Mode=TwoWay}" Placeholder="Razon Social" />
+
+            <Button Text="Añadir Lineas" Style="{StaticResource ButtonStyle}" Clicked="OnAnadirLineaButtonClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

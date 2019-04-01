@@ -1,0 +1,8 @@
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/bin/Release/netstandard2.0/pedidosvendedor.deps.json
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/bin/Release/netstandard2.0/pedidosvendedor.dll
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/bin/Release/netstandard2.0/pedidosvendedor.pdb
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/obj/Release/netstandard2.0/pedidosvendedor.csproj.CoreCompileInputs.cache
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/obj/Release/netstandard2.0/pedidosvendedor.AssemblyInfoInputs.cache
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/obj/Release/netstandard2.0/pedidosvendedor.AssemblyInfo.cs
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/obj/Release/netstandard2.0/pedidosvendedor.dll
+/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor/obj/Release/netstandard2.0/pedidosvendedor.pdb

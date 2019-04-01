@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="pedidosvendedor.Views.ExistenciaPage">
+    <ContentPage.Content>
+        <StackLayout>
+                 <SearchBar x:Name="ExistenciaSearchBar" 
+                         Placeholder="Artículo"
+                         TextChanged="Handle_SearchButtonPressed"
+                         BackgroundColor="#F2F2F2"/>
+
+                 
+
+                  
+                
+           <ListView x:Name="ExistenciaSearchList"
+                         BackgroundColor="#D6F5FE"
+                         Footer=""/>
+              </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

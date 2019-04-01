@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="pedidosvendedor.Views.ClientePage">
+    <ContentPage.Content>
+        <StackLayout>
+                <Label HorizontalTextAlignment="Center">Cliente Demo</Label>
+            
+        
+                <Label HorizontalTextAlignment="Start">Nombre: ADIRAX FRUITS</Label>
+                <Label HorizontalTextAlignment="Start">NFiscal:     </Label>
+                <Label HorizontalTextAlignment="Start">NIF: B-65853491</Label>
+                <Label HorizontalTextAlignment="Start">Telefono: 650301915</Label>
+                <Label HorizontalTextAlignment="Start">Riesgo: 20.000,00</Label> 
+                <Label HorizontalTextAlignment="Start">Descuento: 0</Label>
+                <Label HorizontalTextAlignment="Start">Pendiente: 2.239,66</Label>
+                <Label HorizontalTextAlignment="Start">Pagare:  0,00  </Label>
+                <Label HorizontalTextAlignment="Start">Rappel: </Label>
+
+            <Button Text="Pendiente" Style="{StaticResource LinkStyle}" Clicked="OnPendienteButtonClicked" />
+
+            <Button Text="Crear Pedido" Style="{StaticResource ButtonStyle}" Clicked="OnCrearPedidoButtonClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

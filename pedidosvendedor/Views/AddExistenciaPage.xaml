@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="pedidosvendedor.Views.AddExistenciaPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem1" Order="Primary" Icon="save.png" Text="guardar" Priority="0" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+          <StackLayout Margin="10">
+            <Label Text="Articulo:   AGUACATE PERIBAN | HASS14 CAJA(4K)" Style="{StaticResource LabelStyle}" />
+            <Label Text="Existencia: 331.00" Style="{StaticResource LabelStyle}" />
+            <Label Text="Bulto:" Style="{StaticResource LabelStyle}" />
+
+            <Entry HorizontalTextAlignment="Start" Text="{Binding TokenName, Mode=TwoWay}" Keyboard="Numeric" />
+            <Label Text="Precio:" Style="{StaticResource LabelStyle}" />
+            <Entry Text="{Binding TokenAddress, Mode=TwoWay}" Keyboard="Numeric" />
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
