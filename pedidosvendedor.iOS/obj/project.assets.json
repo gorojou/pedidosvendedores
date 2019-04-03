@@ -716,8 +716,9 @@
       "projectName": "pedidosvendedor.iOS",
       "projectPath": "/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor.iOS/pedidosvendedor.iOS.csproj",
       "packagesPath": "/Users/igormiquilenapmpsoftware/.nuget/packages/",
-      "outputPath": "/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor.iOS/obj",
+      "outputPath": "/Users/igormiquilenapmpsoftware/Projects/pedidosvendedor/pedidosvendedor.iOS/obj/",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
         "/Users/igormiquilenapmpsoftware/.config/NuGet/NuGet.Config"
       ],
@@ -742,7 +743,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "3.0.0.446417"
+            "version": "[3.0.0.446417, )"
           }
         }
       }

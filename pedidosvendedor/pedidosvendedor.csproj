@@ -9,5 +9,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\Vendors.cs" />
+    <Compile Remove="Models\CodigoEmpresa.cs" />
   </ItemGroup>
 </Project>
